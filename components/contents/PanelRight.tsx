@@ -1,6 +1,6 @@
 import styles from '../../styles/Home.module.css';
-import Link from 'next/link';
 import { StarIcon, ChatAltIcon, EyeIcon } from '@heroicons/react/outline';
+import Link from 'next/link';
 
 const PanelRight = () => {
 

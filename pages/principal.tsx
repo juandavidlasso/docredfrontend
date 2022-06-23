@@ -1,6 +1,6 @@
-import { NextPage } from 'next'
-import Layout from '../components/Layout';
+import { NextPage } from 'next';
 import styles from '../styles/Home.module.css';
+import Layout from '../components/Layout';
 import PanelLeft from '../components/contents/PanelLeft';
 import PanelRight from '../components/contents/PanelRight';
 
