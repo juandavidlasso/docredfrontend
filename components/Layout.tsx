@@ -1,4 +1,6 @@
 import React from 'react';
+import Sidebar from './headers/Sidebar';
+import Footer from './headers/Footer';
 import Head from 'next/head';
 
 type PropsChildren = {
@@ -16,11 +18,13 @@ const Layout = ({children}: PropsChildren) => {
             </Head>
 
             <div className='bg-gray-200'>
+                <Sidebar />
 
                 <main className='mb-12'>
                     {children}
                 </main>
 
+                <Footer />
             </div>
         </>
     )
