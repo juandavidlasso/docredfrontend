@@ -35,7 +35,7 @@ const Footer = () => {
                     </Link>
                 </div>
                 <div className='sm:w-full md:w-2/6 lg:w-2/6 xl:w-2/6 md:inline-block p-3'>
-                    <p className='text-zinc-300 text-medium'>
+                    <p className='text-zinc-300 text-medium text-center'>
                         DocRed 2019. Todos los derechos reservados
                     </p>
                 </div>
