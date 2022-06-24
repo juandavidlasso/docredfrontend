@@ -1,15 +1,16 @@
-import React from 'react';
-import styles from '../../styles/Home.module.css';
+import React from 'react'
+import styles from '../../styles/Home.module.css'
 import Link from 'next/link'
+import imgLogo from '../images/logo.png'
+import Image from 'next/image'
 
 const Footer = () => {
     return (
         <footer className={styles.footer}>
             <div className='w-full pl-1 pr-1 pt-2 pb-2 md:flex md:justify-center md:items-center'>
                 <div className='sm:w-full md:w-1/6 lg:w-1/6 xl:w-1/6 md:inline-block p-1'>
-                    <img
-                        className="mx-auto w-40"
-                        src="https://www.docred.com/images/brand/logo.png"
+                    <Image
+                        src={imgLogo}
                         alt="DocRed"
                     />
                 </div>

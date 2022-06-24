@@ -1,6 +1,7 @@
-import styles from '../../styles/Home.module.css';
-import { StarIcon, ChatAltIcon, EyeIcon } from '@heroicons/react/outline';
-import Link from 'next/link';
+import { StarIcon, ChatAltIcon, EyeIcon } from '@heroicons/react/outline'
+import Link from 'next/link'
+import Image from 'next/image'
+import imgBacteria from '../images/bacteria.jpg'
 
 const PanelRight = () => {
 
@@ -21,11 +22,14 @@ const PanelRight = () => {
                 
                 <div className='bg-white rounded-t-lg p-2 mb-1' style={{display: 'flex', justifyContent: 'center'}}>
                     <div className='w-2/4 p-2 inline-block'>
-                        <div className='text-white text-center text-sm absolute font-bold pt-1 pb-1 w-24 mt-4 bg-sky-600 rounded-r-xl'>NOTICIA</div>
-                        <img
-                            src='https://www.innovationnewsnetwork.com/wp-content/uploads/2021/01/iStock-wildpixel-INNweb-DEJAEN1-26968-SR-image-2-1024x576.jpg'
+                        <div className='text-white text-center text-sm absolute font-bold pt-1 pb-1 w-24 mt-4 bg-sky-600 rounded-r-xl z-[100]'>NOTICIA</div>
+                        <Image
+                            src={imgBacteria}
                             alt='Bacteria'
-                            className={styles.imgNoticias}
+                            style={{
+                                height: '6rem',
+                                borderRadius: '12px'
+                            }}
                         />
                     </div>
                     <div className='w-2/4 p-1 inline-block'>
@@ -59,11 +63,14 @@ const PanelRight = () => {
 
                 <div className='bg-white p-2 mb-1' style={{display: 'flex', justifyContent: 'center'}}>
                     <div className='w-2/4 p-2 inline-block'>
-                        <div className='text-white text-center text-sm absolute font-bold pt-1 pb-1 w-24 mt-4 bg-sky-600 rounded-r-xl'>NOTICIA</div>
-                        <img
-                            src='https://www.innovationnewsnetwork.com/wp-content/uploads/2021/01/iStock-wildpixel-INNweb-DEJAEN1-26968-SR-image-2-1024x576.jpg'
+                        <div className='text-white text-center text-sm absolute font-bold pt-1 pb-1 w-24 mt-4 bg-sky-600 rounded-r-xl z-[100]'>NOTICIA</div>
+                        <Image
+                            src={imgBacteria}
                             alt='Bacteria'
-                            className={styles.imgNoticias}
+                            style={{
+                                height: '6rem',
+                                borderRadius: '12px'
+                            }}
                         />
                     </div>
                     <div className='w-2/4 p-1 inline-block'>
@@ -97,11 +104,14 @@ const PanelRight = () => {
 
                 <div className='bg-white p-2 mb-1' style={{display: 'flex', justifyContent: 'center'}}>
                     <div className='w-2/4 p-2 inline-block'>
-                        <div className='text-white text-center text-sm absolute font-bold pt-1 pb-1 w-24 mt-4 bg-sky-600 rounded-r-xl'>NOTICIA</div>
-                        <img
-                            src='https://www.innovationnewsnetwork.com/wp-content/uploads/2021/01/iStock-wildpixel-INNweb-DEJAEN1-26968-SR-image-2-1024x576.jpg'
+                        <div className='text-white text-center text-sm absolute font-bold pt-1 pb-1 w-24 mt-4 bg-sky-600 rounded-r-xl z-[100]'>NOTICIA</div>
+                        <Image
+                            src={imgBacteria}
                             alt='Bacteria'
-                            className={styles.imgNoticias}
+                            style={{
+                                height: '6rem',
+                                borderRadius: '12px'
+                            }}
                         />
                     </div>
                     <div className='w-2/4 p-1 inline-block'>
@@ -135,11 +145,14 @@ const PanelRight = () => {
 
                 <div className='bg-white p-2 mb-1' style={{display: 'flex', justifyContent: 'center'}}>
                     <div className='w-2/4 p-2 inline-block'>
-                        <div className='text-white text-center text-sm absolute font-bold pt-1 pb-1 w-24 mt-4 bg-sky-600 rounded-r-xl'>NOTICIA</div>
-                        <img
-                            src='https://www.innovationnewsnetwork.com/wp-content/uploads/2021/01/iStock-wildpixel-INNweb-DEJAEN1-26968-SR-image-2-1024x576.jpg'
+                        <div className='text-white text-center text-sm absolute font-bold pt-1 pb-1 w-24 mt-4 bg-sky-600 rounded-r-xl z-[100]'>NOTICIA</div>
+                        <Image
+                            src={imgBacteria}
                             alt='Bacteria'
-                            className={styles.imgNoticias}
+                            style={{
+                                height: '6rem',
+                                borderRadius: '12px'
+                            }}
                         />
                     </div>
                     <div className='w-2/4 p-1 inline-block'>
@@ -173,11 +186,14 @@ const PanelRight = () => {
 
                 <div className='bg-white rounded-b-lg p-2 mb-1' style={{display: 'flex', justifyContent: 'center'}}>
                     <div className='w-2/4 p-2 inline-block'>
-                        <div className='text-white text-center text-sm absolute font-bold pt-1 pb-1 w-24 mt-4 bg-sky-600 rounded-r-xl'>NOTICIA</div>
-                        <img
-                            src='https://www.innovationnewsnetwork.com/wp-content/uploads/2021/01/iStock-wildpixel-INNweb-DEJAEN1-26968-SR-image-2-1024x576.jpg'
+                        <div className='text-white text-center text-sm absolute font-bold pt-1 pb-1 w-24 mt-4 bg-sky-600 rounded-r-xl z-[100]'>NOTICIA</div>
+                        <Image
+                            src={imgBacteria}
                             alt='Bacteria'
-                            className={styles.imgNoticias}
+                            style={{
+                                height: '6rem',
+                                borderRadius: '12px'
+                            }}
                         />
                     </div>
                     <div className='w-2/4 p-1 inline-block'>

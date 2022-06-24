@@ -12,20 +12,6 @@
   justify-content: center;
 }
 
-.imgNoticias {
-  height: 6rem;
-  border-radius: 12px;
-  transition: transform .6s; 
-}
-.imgNoticias:hover {
-  -webkit-transform:scale(1.15);
-  -moz-transform:scale(1.15);
-  -ms-transform:scale(1.15);
-  -o-transform:scale(1.15);
-  transform:scale(1.15);
-  cursor: pointer;
-}
-
 .main {
   min-height: 100vh;
   padding: 4rem 0;
