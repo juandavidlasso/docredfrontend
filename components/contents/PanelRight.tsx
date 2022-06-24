@@ -21,6 +21,7 @@ const PanelRight = () => {
                 
                 <div className='bg-white rounded-t-lg p-2 mb-1' style={{display: 'flex', justifyContent: 'center'}}>
                     <div className='w-2/4 p-2 inline-block'>
+                        <div className='text-white text-center text-sm absolute font-bold pt-1 pb-1 w-24 mt-4 bg-sky-600 rounded-r-xl'>NOTICIA</div>
                         <img
                             src='https://www.innovationnewsnetwork.com/wp-content/uploads/2021/01/iStock-wildpixel-INNweb-DEJAEN1-26968-SR-image-2-1024x576.jpg'
                             alt='Bacteria'
@@ -58,6 +59,7 @@ const PanelRight = () => {
 
                 <div className='bg-white p-2 mb-1' style={{display: 'flex', justifyContent: 'center'}}>
                     <div className='w-2/4 p-2 inline-block'>
+                        <div className='text-white text-center text-sm absolute font-bold pt-1 pb-1 w-24 mt-4 bg-sky-600 rounded-r-xl'>NOTICIA</div>
                         <img
                             src='https://www.innovationnewsnetwork.com/wp-content/uploads/2021/01/iStock-wildpixel-INNweb-DEJAEN1-26968-SR-image-2-1024x576.jpg'
                             alt='Bacteria'
@@ -95,6 +97,7 @@ const PanelRight = () => {
 
                 <div className='bg-white p-2 mb-1' style={{display: 'flex', justifyContent: 'center'}}>
                     <div className='w-2/4 p-2 inline-block'>
+                        <div className='text-white text-center text-sm absolute font-bold pt-1 pb-1 w-24 mt-4 bg-sky-600 rounded-r-xl'>NOTICIA</div>
                         <img
                             src='https://www.innovationnewsnetwork.com/wp-content/uploads/2021/01/iStock-wildpixel-INNweb-DEJAEN1-26968-SR-image-2-1024x576.jpg'
                             alt='Bacteria'
@@ -132,6 +135,7 @@ const PanelRight = () => {
 
                 <div className='bg-white p-2 mb-1' style={{display: 'flex', justifyContent: 'center'}}>
                     <div className='w-2/4 p-2 inline-block'>
+                        <div className='text-white text-center text-sm absolute font-bold pt-1 pb-1 w-24 mt-4 bg-sky-600 rounded-r-xl'>NOTICIA</div>
                         <img
                             src='https://www.innovationnewsnetwork.com/wp-content/uploads/2021/01/iStock-wildpixel-INNweb-DEJAEN1-26968-SR-image-2-1024x576.jpg'
                             alt='Bacteria'
@@ -169,6 +173,7 @@ const PanelRight = () => {
 
                 <div className='bg-white rounded-b-lg p-2 mb-1' style={{display: 'flex', justifyContent: 'center'}}>
                     <div className='w-2/4 p-2 inline-block'>
+                        <div className='text-white text-center text-sm absolute font-bold pt-1 pb-1 w-24 mt-4 bg-sky-600 rounded-r-xl'>NOTICIA</div>
                         <img
                             src='https://www.innovationnewsnetwork.com/wp-content/uploads/2021/01/iStock-wildpixel-INNweb-DEJAEN1-26968-SR-image-2-1024x576.jpg'
                             alt='Bacteria'

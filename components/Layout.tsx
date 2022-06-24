@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { ReactNode } from 'react';
 import Sidebar from './headers/Sidebar';
 import Footer from './headers/Footer';
 import Head from 'next/head';
 
+// Props hijos de lo que envuelve el componente Layout
 type PropsChildren = {
-    children?: any;
+    children?: ReactNode;
 }
 
 const Layout = ({children}: PropsChildren) => {

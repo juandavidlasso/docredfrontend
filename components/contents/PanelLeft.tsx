@@ -9,7 +9,9 @@ const PanelLeft = ({props}: any) => {
     return (
         <div className='w-full rounded-xl p-4 bg-white' key={id}>
             <div className='w-full mb-2 p-2'>
-                <div className={styles.imgNoticia}>img</div>
+                <div className={styles.imgNoticia}>
+                    <div className='text-white text-center absolute font-bold pt-1 pb-1 w-28 mt-7 bg-sky-600 rounded-r-xl'>NOTICIA</div>
+                </div>
             </div>
             <div className='w-full mb-2 p-2'>
                 <div className='sm:w-2/4 md:w-2/4 lg:w-2/4 xl:w-2/4 inline-block p-3'>
@@ -18,7 +20,7 @@ const PanelLeft = ({props}: any) => {
                 <div className='sm:w-2/4 md:w-2/4 lg:w-2/4 xl:w-2/4 inline-block p-2'>
                     <button
                         type='button'
-                        className='text-white p-2 w-40 ml-6 hover:bg-lime-900 bg-lime-500'
+                        className='text-white p-2 w-40 ml-6 hover:bg-lime-900 bg-lime-500 sm:w-36 sm:mx-auto'
                         style={{
                             borderTopRightRadius: '0px',
                             borderBottomRightRadius: '30px',
@@ -55,7 +57,7 @@ const PanelLeft = ({props}: any) => {
             <div className='w-full p-2'>
                 <div className='w-full p-2'>
                     <div
-                        className='w-3/3 bg-white mx-auto p-2 md:w-2/3'
+                        className='w:3/3 bg-white mx-auto p-2 md:w-3/3 lg:w-2/3 xl:w-2/3'
                         style={{
                             borderTopRightRadius: '0px',
                             borderBottomRightRadius: '30px',

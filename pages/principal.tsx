@@ -1,22 +1,23 @@
-import { NextPage } from 'next';
 import styles from '../styles/Home.module.css';
+import { GetStaticProps } from 'next'
 import Layout from '../components/Layout';
 import PanelLeft from '../components/contents/PanelLeft';
 import PanelRight from '../components/contents/PanelRight';
 import fsPromises from 'fs/promises';
 import path from 'path';
 
-export async function getStaticProps() {
+// Importo informacion del json
+export const getStaticProps: GetStaticProps = async (context) => {
     const filePath: any = path.join(process.cwd(), 'article.json');
     const jsonData: any = await fsPromises.readFile(filePath);
     const objectData: any = JSON.parse(jsonData);
   
     return {
-      props: objectData
+        props: objectData
     }
 }
 
-const Principal = (props: any) => {    
+const Principal = (props: any) => {
 
     return (
         <>
